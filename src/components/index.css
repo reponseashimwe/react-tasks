@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+    display: flex;
+    font-family: Dubai;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 450px;
+    max-width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pad-20 {
+    padding: 20px;
+}
+
+.btn {
+    border: 2px solid transparent;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 7px;
+    background-color: rgb(15, 89, 158);
+}
+
+.btn.block {
+    display: block;
+    width:100%;
+}
+.btn.btn-outline {
+    color: rgb(15, 89, 158);
+    border-color: rgb(15, 89, 158);
+    background-color: #fff;
+}
+
+.btn.btn-icon {
+    background-color: transparent;
+    padding: 3px;
+    color: inherit;
+}
+
+/* Form */
+.input {
+    padding: 10px;
+}
+.input label {
+    margin: 0;
+    color: #000;
+}
+.input input {
+    width: 100%;
+    padding: 5px 7px;
+    font-size: 95%;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.error {
+    background-color: rgba(181, 174, 174, 0.2);
+    color: rgb(6, 6, 6);
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin: 15px 10px;
+}
+
+/* Tasks */
+.tasks-container {
+    padding: 10px;
+    overflow: auto;
+    height: calc(100% - 90px);
+    
+}
+
+.task {
+    border-radius: 7px;
+    padding: 10px;
+    background:rgba(168, 163, 163, 0.15);
+    border: 2px solid transparent;
+    margin: 10px;
+}
+.task p {
+    margin: 0;
+
+}
+.task .title {
+    font-weight: bold;
+}
+.task .flex > * {
+}
+.task.done {
+    background-color: #fff;
+    border-color: rgb(6, 100, 49);
+}
+.task .done {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #ccc;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.task.done .done {
+    background-color: rgb(6, 100, 49);
+    color: #fff;
+}
+
+.task .done.yes {
+    background-color: rgb(6, 100, 49);
+    color: #fff;
+}
