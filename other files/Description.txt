@@ -1,4 +1,0 @@
-1. Place the api folder in xampp/htdocs folder (if not specify the path to it in api variable)
-2. Have a database called projects_todo, and import the tasks.sql into it.
-If you use another database, change the conn variable in index.php file of api folder
-3. Npm start in the terminal of the react folder and the project is ready to run
